@@ -1,4 +1,4 @@
-package com.developer.arsltech.github;
+package com.harvey186.LEOS;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -46,7 +46,7 @@ import java.net.URL;
 public class MainActivity extends AppCompatActivity {
 
     WebView webView;
-    private String webUrl = "https://github.com";
+    private String webUrl = "https://leos-gsi.de";
     ProgressBar progressBarWeb;
     ProgressDialog progressDialog;
     RelativeLayout relativeLayout;
@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         Window window = getWindow();
         window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         setContentView(R.layout.activity_main);
 
