@@ -1,5 +1,5 @@
 Sources for creating a WebApp.
-
+clone this repo
 run follwing changes:
 1. rename all 'LEOS' folders to name of new WebApp
 2. run in terminal: 'grep -RiIl 'com.harvey186.LEOS' | xargs sed -i 's/com.harvey186.LEOS/com.harvey186.NameOfWebApp/g'
